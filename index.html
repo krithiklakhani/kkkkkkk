@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PORTFOLIO</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="sidebar">sidebar
+        <header class="nav">
+
+            <div class="sidebarpic">
+                <img src="./3.jpg" style="height: 140px ; width:140px; border-radius:70px; padding: 1em;"
+                    alt="virat kohli">
+            </div>
+
+
+
+            <div class="socialmedia">
+                <a href="#" style="color: white;">
+                    <i class="fa-brands fa-linkedin fa-2x"></i>
+                </a>
+                <a href="#" style="color: white;">
+                    <i class="fa-brands fa-facebook fa-2x "></i>
+                </a>
+
+                <a href="#" style="color: white;">
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                </a>
+                <a href="#" style="color: white;">
+
+
+
+                    <i class="fa-brands fa-github fa-2x"></i>
+
+                </a>
+                <a href="#" style="color: white;">
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                </a>
+
+
+
+            </div>
+
+            </nav>
+            <nav class="navopt">
+
+
+                <a href="#" style="color: white;" class="nav_link" onclick="hideAside()">
+                    <i class="fa-solid fa-font-case">HOME</i>
+
+
+                </a>
+
+
+                <a href="#about" style="color: white; " class="nav_link" onclick="hideAside()">
+
+                    <i class="fa-solid fa-font-case">ABOUT</i>
+                </a>
+                <a href="#facts" style="color: white; " class="nav_link" onclick="hideAside()">
+
+                    <i class="fa-solid fa-font-case">FACTS</i>
+                </a>
+                <a href="#skills" style="color: white; " class="nav_link" onclick="hideAside()">
+
+                    <i class="fa-solid fa-font-case">SKILLS</i>
+                </a>
+
+
+                <a href="#resume" style="color: white;" class="nav_link" onclick="hideAside()">
+                    <i class="fa-solid fa-font-case">RESUME</i>
+                </a>
+
+
+                <a href="#portfolio" style="color: white;" class="nav_link" onclick="hideAside()">
+                    <i class="fa-solid fa-font-case">PORTFOLIO</i>
+                </a>
+
+                <a href="#testimonials" style="color: white;" class="nav_link" onclick="hideAside()">
+                    <i class="fa-solid fa-font-case"> TESTIMONIALS</i>
+                </a>
+
+
+
+                <a href="#services" style="color: white;" class="nav_link" onclick="hideAside()">
+                    <i class="fa-solid fa-font-case">SERVICES</i>
+                </a>
+
+
+                <a href="#contact" style="color: white;" class="nav_link" onclick="hideAside()">
+                    <i class="fa-solid fa-font-case"> CONTACT</i>
+                </a>
+
+            </nav>
+
+
+        </header>
+
+
+
+        <footer class=" sidebarfooter">
+            <i class="fa-solid fa-font-case"> &copy; Copyright 2022 <br> Designed by <br> Krithik Lakhani </i>
+
+
+
+
+        </footer>
+
+
+        </nav>
+
+    </div>
+    <main>
+
+        <div class="dropdown">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#facts">FACTS</a></li>
+            <li><a href="#skills">SKIILS</a></li>
+            <li><a href="#resume">RESUME</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#testimonials">TESTIMONIALS</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </div>
+
+        <div class="bars" onclick="togglenav()">
+            <a class="showmenu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="closeMenu" onclick="closenav()">
+            <p>X</p>
+        </div>
+
+
+
+
+        <div class="main-content">
+            <section class="im">
+                <div class="textcss">
+                    <span style="font-family: 'Poppins', sans-serif;"> I AM VIRAT KOHLI</span>
+
+                </div>
+
+
+            </section>
+            <section class="about" data-aos="fade-up" id="about">
+                <h1><i class="fa-sharp fa-solid fa-text fa-2x" style="margin-left: 1em;">ABOUT</i></h1>
+                <div class="underline-bar" style="margin-left: 1em;"></div>
+                <p><i class="fa-duotone " style="margin-left: 1em;">Learn about me!</i></p>
+                <div class="aboutcon">
+                    <img src="gif.gif" class="abt-img" alt="pic">
+                    <div class="aboutright">
+                        <h2 style="font-size:2rem;   text-decoration: underline;">PROFESSIONAL CRICKETER</h2>
+                        <i class="fa-solid fa-message-text fa-2x">indian cricket team</i>
+                        <div class="icons">
+
+                            <i class="fa-solid fa-arrow-right"> Right hand batsman</i>
+                            <i class="fa-solid fa-arrow-right f"> Right hand bowling</i>
+                            <i class="fa-solid fa-arrow-right"> Feilding</i>
+                            <i class="fa-solid fa-arrow-right"> Keeping</i>
+                            <i class="fa-solid fa-arrow-right"> Captain</i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <section>
+                <section class="facts"  data-aos="fade-up"  id="facts">
+                    <h1><i class="fa-sharp fa-solid fa-text fa-2x" style="margin-left: 1em;">Facts</i></h1>
+                    <div class="underline-bar" style="margin-left: 1em;"></div>
+                    <p><i class="fa-duotone fa-font-case fa-2x" style="margin-left: 1em;">Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. </i></p>
+                    <div class="factss">
+
+                        <div class="fact-solo" data-aos="fade-right">
+                            <i class="fa-solid fa-user "> 71 <h1>Lorem ipsum dolor sit amet
+                                    ntium consequatur.
+                                    Necessitatibus, velit totam.</h1></i>
+                        </div>
+
+                        <div class="fact-solo" data-aos="fade-right">
+                            <i class="fa-solid fa-heart"> 22 <h1>Lorem ipsum dolor sit amet consectetur, adipisicing
+                                    elit.
+                                    Animi, dignissimos. Incidunt haruiores
+                                    blanditiis repellendus nisi ipsam saepe eius, numquam nihil, id porro distinctio.
+                                </h1></i>
+                        </div>
+
+                        <div class="fact-solo" data-aos="fade-right">
+                            <i class="fa-solid fa-headphones"> 43 <h1>Lorem amet consectetur, adipisicing elit.
+                                    Qs in.
+                                </h1></i>
+                        </div>
+
+                        <div class="fact-solo" data-aos="fade-right">
+                            <i class="fa-solid fa-plane"> 34 <h1>Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Illo
+                                    numquam,,
+                                    accusamus ratione tempore omnis quod accusantium eveniet sit perspiciatis error?
+                                </h1></i>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+
+            </section>
+            <section>
+                <section class="skills"  data-aos="fade-up" id="skills">
+                    <h1><i class="fa-sharp fa-solid fa-text fa-2x" style="margin-left: 1em;">SKILLS</i></h1>
+                    <div class="underline-bar" style="margin-left: 1em;"></div>
+
+                    <div class="progress">
+
+                        <div class="upper-progress">
+                            <div class="bar" data-aos="fade-left" style="margin-left:1em; ">
+                                <div class="inside" style="height:24px;width:50%"> bowl 50% </div>
+                            </div>
+
+                            <div class="bar" data-aos="fade-left" style="margin-left:1em;">
+                                <div class="inside" style="height:24px;width:80%"> bat 80%</div>
+                            </div>
+                        </div>
+
+                        <div class="lower-progress" data-aos="fade-left">
+                            <div class="bar" style="margin-left:1em;">
+                                <div class="inside" style="height:24px;width:60%"> feild 60%</div>
+                            </div>
+
+                            <div class="bar" data-aos="fade-left" style="margin-left:1em;">
+                                <div class="inside" style="height:24px;width:70%"> keep 70%</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </section>
+            </section>
+
+
+            <section>
+                <section class="resume"  data-aos="fade-up" id="resume">
+                    <h1><i class="fa-sharp fa-solid fa-text fa-2x" style="margin-left: 1em;">RESUME</i></h1>
+                    <div class="underline-bar" style="margin-left: 1em;"></div>
+                    <div class="resumecon" data-aos="fade-up">
+                        <div class="education">
+                            <h1 style="font-size:2rem; margin-left:25% ;  text-decoration: underline;">EDUCATION</h1>
+                            <p><i class="fa-duotone fa-font-case fa-2x" style="margin-left: 1em;"> Kohli first played
+                                    for
+                                    Delhi Under-15 team in October 2002 in the 2002–03 Polly Umrigar Trophy. He became
+                                    the
+                                    captain of the team for the 2003–04 Polly Umrigar Trophy. In late 2004, he was
+                                    selected
+                                    in the Delhi Under-17 team for the 2003–04 Vijay Merchant Trophy.Lorem ipsum dolor
+                                    sit
+                                    amet
+                                    consectetur adipisicing elit. </i></p>
+                        </div>
+                        <div class="summary" data-aos="fade-up" >
+                            <h1 style="font-size:2rem; margin-left:25% ;  text-decoration: underline;">SUMMMARY</h1>
+                            <p><i class="fa-duotone fa-font-case fa-2x" style="margin-left: 1em;"> Kohli first played
+                                    for
+                                    Delhi Under-15 team in October 2002 in the 2002–03 Polly Umrigar Trophy. He became
+                                    the
+                                    captain of the team for the 2003–04 Polly Umrigar Trophy. In late 2004, he was
+                                    selected
+                                    in the Delhi Under-17 team for the 2003–04 Vijay Merchant Trophy.Lorem ipsum dolor
+                                    sit
+                                    amet
+                                    consectetur adipisicing elit. </i></p>
+                        </div>
+                        <div class="career" data-aos="fade-up">
+                            <h1 style="font-size:2rem; margin-left:25% ;  text-decoration: underline;">CAREER</h1>
+                            <p><i class="fa-duotone fa-font-case fa-2x" style="margin-left: 1em;"> Kohli first played
+                                    for
+                                    Delhi Under-15 team in October 2002 in the 2002–03 Polly Umrigar Trophy. He became
+                                    the
+                                    captain of the team for the 2003–04 Polly Umrigar Trophy. In late 2004, he was
+                                    selected
+                                    in the Delhi Under-17 team for the 2003–04 Vijay Merchant Trophy.Lorem ipsum dolor
+                                    sit
+                                    amet
+                                    consectetur adipisicing elit. </i></p>
+                        </div>
+                        <div class="history" data-aos="fade-up">
+                            <h1 style="font-size:2rem; margin-left:25% ;  text-decoration: underline;">HISTORY</h1>
+                            <p><i class="fa-duotone fa-font-case fa-2x" style="margin-left: 1em;"> Kohli first played
+                                    for
+                                    Delhi Under-15 team in October 2002 in the 2002–03 Polly Umrigar Trophy. He became
+                                    the
+                                    captain of the team for the 2003–04 Polly Umrigar Trophy. In late 2004, he was
+                                    selected
+                                    in the Delhi Under-17 team for the 2003–04 Vijay Merchant Trophy.Lorem ipsum dolor
+                                    sit
+                                    amet
+                                    consectetur adipisicing elit. </i></p>
+                        </div>
+                    </div>
+
+
+                </section>
+                <section>
+                    <section class="portfolio" data-aos="fade-up" id="portfolio">
+                        <h1><i class="fa-sharp fa-solid fa-text fa-2x" style="margin-left: 1em;">PORTFOLIO </i></h1>
+                        <div class="underline-bar" style="margin-left: 1em;"></div>
+                        <p><i class="fa-duotone fa-font-case fa-2x" style="padding-right: 2em;"> Lorem ipsum dolor sit
+                                amet
+                                consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Magnam vitae sunt ducimus laboriosam porro quia pariatur nesciunt perspiciatis libero
+                                quasi
+                                sed officia esse hic reiciendis similique, culpa dolor! Facere, voluptate.. </i></p>
+
+                        <input type="radio" name="photos" id="check1" checked style="display: none;">
+                        <input type="radio" name="photos" id="check2" style="display: none;">
+                        <input type="radio" name="photos" id="check3" style="display: none;">
+                        <input type="radio" name="photos" id="check4" style="display: none;">
+                        <div class="pcontainer">
+                            <div class="pcontent">
+                                <label for="check1">ALL</label>
+                                <label for="check2">BATTING</label>
+                                <label for="check3">BOWLING</label>
+                                <label for="check4">FEILDING</label>
+
+                            </div>
+
+                            <div class="gallery">
+                                <div class=" pic BATTING">
+                                    <img src="./bt1.webp"
+                                        style="height:360px ;width: 340px; border-radius: 15px; box-shadow: 5px 5px 5px gray; "
+                                        alt="">
+                                </div>
+                                <div class=" pic BOWLING">
+                                    <img src="./bo1.webp"
+                                        style="height:360px ;width: 340px; border-radius: 15px; box-shadow: 5px 5px 5px gray;"
+                                        alt="">
+                                </div>
+                                <div class=" pic FEILDING">
+                                    <img src="f1.avif"
+                                        style="height:360px ;width: 340px;border-radius: 15px; box-shadow: 5px 5px 5px gray; "
+                                        alt="">
+                                </div>
+                                <div class=" pic BATTING">
+                                    <img src="./bt2.webp"
+                                        style="height:360px ;width: 340px;border-radius: 15px; box-shadow: 5px 5px 5px gray;"
+                                        alt="">
+                                </div>
+                                <div class=" pic BOWLING">
+                                    <img src="./bo2.jpg"
+                                        style="height:360px ;width: 340px;border-radius: 15px; box-shadow: 5px 5px 5px gray;"
+                                        alt="">
+                                </div>
+                                <div class=" pic FEILDING">
+                                    <img src="./f2.webp"
+                                        style="height:360px ;width: 340px;border-radius: 15px; box-shadow: 5px 5px 5px gray;"
+                                        alt="">
+                                </div>
+                                <div class=" pic BATTING">
+                                    <img src="./bt3.webp"
+                                        style="height:360px ;width: 340px;border-radius: 15px; box-shadow: 5px 5px 5px gray;"
+                                        alt="">
+                                </div>
+                                <div class=" pic BOWLING">
+                                    <img src="./bo3.jfif"
+                                        style="height:360px ;width: 340px;border-radius: 15px; box-shadow: 5px 5px 5px gray;"
+                                        alt="">
+                                </div>
+                                <div class=" pic FEILDING">
+                                    <img src="./f3.jpg"
+                                        style="height:360px ;width: 340px;border-radius: 15px; box-shadow: 5px 5px 5px gray;"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+
+
+                </section>
+               
+                    <section>
+                        <section class="testimonials" data-aos="fade-up" id="testimonials">
+                            <h1><i class="fa-sharp fa-solid fa-text fa-2x" style="margin-left: 1em;">TESTIMONIALS </i>
+                            </h1>
+                            <div class="underline-bar" style="margin-left: 1em;"></div>
+                            <p><i class="fa-duotone fa-font-case fa-2x" style="margin-left: 1em;">Lorem ipsum dolor sit
+                                    amet
+                                    consectetur adipisicing elit. </i></p>
+                            <section class="container">
+                                <div class="testimonial mySwiper">
+                                    <div class="testi-content swiper-wrapper">
+                                        <div class="slide swiper-slide">
+                                            <img src="./msd.jpg" alt="" class="image" />
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                                                saepe provident dolorem a quaerat quo error facere nihil deleniti
+                                                eligendi ipsum adipisci, fugit, architecto amet asperiores
+                                                doloremque deserunt eum nemo.
+                                            </p>
+
+                                            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+                                            <div class="details">
+                                                <span class="name">MS DHONI</span>
+                                                <span class="job">CAPTAIN</span>
+                                            </div>
+                                        </div>
+                                        <div class="slide swiper-slide">
+                                            <img src="./hp.webp" alt="" class="image" />
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                                                saepe provident dolorem a quaerat quo error facere nihil deleniti
+                                                eligendi ipsum adipisci, fugit, architecto amet asperiores
+                                                doloremque deserunt eum nemo.
+                                            </p>
+
+                                            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+                                            <div class="details">
+                                                <span class="name">Hardik pandya</span>
+                                                <span class="job">BATSMAN</span>
+                                            </div>
+                                        </div>
+                                        <div class="slide swiper-slide">
+                                            <img src="./rohit-sharma.webp" alt="" class="image" />
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                                                saepe provident dolorem a quaerat quo error facere nihil deleniti
+                                                eligendi ipsum adipisci, fugit, architecto amet asperiores
+                                                doloremque deserunt eum nemo.
+                                            </p>
+
+                                            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+                                            <div class="details">
+                                                <span class="name">Rohit Sharma</span>
+                                                <span class="job">VICE-CAPTAIN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next nav-btn"></div>
+                                    <div class="swiper-button-prev nav-btn"></div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </section>
+
+
+
+
+
+                        </section>
+                    </section>
+                </section>
+
+
+                <section class="contact" data-aos="fade-up" id="contact">
+                    <section class="contactcon">
+                        <h1><i class="fa-sharp fa-solid fa-text fa-2x" style="margin-left: 1em;">CONTACT </i></h1>
+                        <div class="underline-bar" style="margin-left: 1em;"></div>
+                        <p><i class="fa-duotone fa-font-case fa-2x" style="margin-left: 1em;">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. </i></p>
+                        <div class="cards" style="padding-bottom:2em ;">
+                            <div class="card1" data-aos="fade-right" >
+                                <div class="mapouter">
+                                    <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0"
+                                            scrolling="no" marginheight="0" marginwidth="0"
+                                            src="https://maps.google.com/maps?width=309&amp;height=304&amp;hl=en&amp;q=vasco&amp;t=&amp;z=20&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                                            href="https://mcpenation.com/">MCPE Nation</a></div>
+
+                                </div>
+
+                                <div class="containerc">
+                                    <i class="fa-solid fa-location-dot fa-2x" style="margin-top: 2em;"> ADDRESS
+                                        <p style="font-size:15px ;">VASCO DA GAMA</p>
+                                    </i>
+                                    <i class="fa-solid fa-envelope fa-2x" style="margin-top: 2em;"> EMAIL
+                                        <p style="font-size:15px ;">HDHDH@GMAIL/COM</p>
+                                    </i>
+                                    <i class="fa-solid fa-phone fa-2x" style="margin-top: 2em;"> PHONE NUMBER
+                                        <p style="font-size:15px ;">0506070324</p>
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="cards">
+                                <div class="card2" data-aos="fade-left" >
+                                    <img src="./suit.jpg" alt="Avatar" style="width:100%">
+                                    <div class="containercon">
+                                        <div class="contact-form">
+                                            <h2>CONTACT ME</h2>
+                                            <form action="">
+                                                <label for="name">Your Name </label>
+                                                <input type="text" name="" value="">
+
+                                                <label for="email">Your Email </label>
+                                                <input type="text" name="email" value="">
+                                                <label for="subject">Subject</label>
+                                                <input type="text" name="subject" value="">
+                                                <label for="message">Message </label>
+                                                <textarea name="message" id="" cols="35" rows="10" value=""></textarea>
+                                            </form>
+                                            <div class="submit">
+                                                <input id="submit-btn" type="submit" value="Send">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </section>
+
+                </section>
+
+
+            </section>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js" async defer></script>
+    <script>
+        AOS.init();
+      </script>
+    <script>
+        var menu = document.querySelector(".bars");
+        var close_menu = document.querySelector(".closeMenu")
+        var dropdown = document.querySelector(".dropdown");
+
+        function togglenav() {
+            dropdown.style.display = "block";
+            menu.style.display = "none";
+            close_menu.style.display = "block"
+        }
+
+        function closenav() {
+            menu.style.display = "block";
+            dropdown.style.display = "none";
+            close_menu.style.display = "none";
+        }
+    </script>
+    
+</body>
+
+</html
